@@ -1,0 +1,6 @@
+[submodule "uCore-RV-64-lab"]
+	path = uCore-RV-64-lab
+	url = https://github.com/hw0505/uCore-RV-64-lab.git
+[submodule "uCore-RV-64-test"]
+	path = uCore-RV-64-test
+	url = https://github.com/hw0505/uCore-RV-64-test.git
