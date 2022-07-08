@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "run_os",
+      "setup": "",
+      "run": "make run",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 15,
+      "points": 100
+    }
+  ]
+}
