@@ -10,3 +10,6 @@
 [submodule "uCore-RV-64-answer"]
 	path = uCore-RV-64-answer
 	url = https://github.com/uCore-RV-64/uCore-RV-64-answer.git
+[submodule "uCore-RV-64-doc"]
+	path = uCore-RV-64-doc
+	url = https://github.com/uCore-RV-64/uCore-RV-64-doc.git
