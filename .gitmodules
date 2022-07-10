@@ -4,3 +4,6 @@
 [submodule "uCore-RV-64-test"]
 	path = uCore-RV-64-test
 	url = https://github.com/hw0505/uCore-RV-64-test.git
+[submodule "uCore-RV-64-conf"]
+	path = uCore-RV-64-conf
+	url = https://github.com/uCore-RV-64/uCore-RV-64-conf.git
