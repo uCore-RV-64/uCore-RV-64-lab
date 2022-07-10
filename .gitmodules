@@ -7,3 +7,6 @@
 [submodule "uCore-RV-64-conf"]
 	path = uCore-RV-64-conf
 	url = https://github.com/uCore-RV-64/uCore-RV-64-conf.git
+[submodule "uCore-RV-64-answer"]
+	path = uCore-RV-64-answer
+	url = https://github.com/uCore-RV-64/uCore-RV-64-answer.git
