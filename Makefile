@@ -76,6 +76,14 @@ download_lba:
 	sudo chmoud script/download_lab.sh
 	./script/download.sh
 
+setclassroom:
+	touch .github/.keep
+	cp scripts/classroom.yml .github/workflows/classroom.yml
+	git add .github/workflows/classroom.yml
+	git add .github/.keep
+	git commit -m"update classroom.yml .keep for classroom CI test"
+	git push
+
 # for local ubuntu with zsh shell SHELL, need root for sudo 
 ubuntu_setenv:
 	cd ${HOME} && sudo wget https://static.dev.sifive.com/dev-tools/freedom-tools/v2020.08/riscv64-unknown-elf-gcc-10.1.0-2020.08.2-x86_64-linux-ubuntu14.tar.gz
