@@ -72,6 +72,9 @@ docker:
 	docker pull nzpznk/oslab-c-env
 	docker run -it --name ${DOCKER_NAME} ${DOCKER_IMAGE_NAME} /bin/bash
 
+download_lba:
+	sudo chmoud script/download_lab.sh
+	./script/download.sh
 
 # for local ubuntu with zsh shell SHELL, need root for sudo 
 ubuntu_setenv:
